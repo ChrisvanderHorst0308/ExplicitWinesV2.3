@@ -1,7 +1,7 @@
 :root {
   --indian-red: #eb5757;
   --white-smoke: #f9f9f9;
-  --black: #222;
+  --black: #0f0e0e1f;
   --dim-grey: #525252;
   --brown: #ab4040;
   --gold: #ffde03;
@@ -1249,8 +1249,9 @@ blockquote {
 .hero-section {
   background-image: linear-gradient(360deg, #222, #2220), url('../images/ew_selected008-min.jpg');
   background-position: 0 0, 50%;
-  background-size: auto, cover;
+  background-size: auto, contain;
   min-height: 550px;
+  margin-top: 0;
 }
 
 .hero-section.about-hero {
@@ -1267,14 +1268,14 @@ blockquote {
 
 .menu-wrapper {
   z-index: 900;
-  background-color: #a7a7a738;
+  background-color: var(--black);
   width: 100%;
   position: fixed;
   top: 0;
 }
 
 .navbar {
-  background-color: #1e1f2099;
+  background-color: var(--black);
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
